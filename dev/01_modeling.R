@@ -5,20 +5,23 @@
 
 # INITIAL SETTINGS --------------------------------------------------------
 
+# clean environment
+rm(list = ls())
+
+# install package renv for reproductibility
+# install.packages("renv")
+
+# install packages with respective version
+renv::restore()
+
 # installing necessary libraries
 list.packages = c("tidyverse", "sf", "mapview", "mgcv", "sperrorest",
                   "ggplot2", "reshape", "RColorBrewer")
-new.packages = list.packages[!(list.packages %in% installed.packages()[,"Package"])]
-if(length(new.packages)) install.packages(new.packages)
-
-# loading libraries
-lapply(list.packages, require, character.only=T)
-remove(list.packages, new.packages)
+vapply(list.packages, library, logical(1), character.only = TRUE, logical.return = TRUE, quietly = TRUE)
+rm(list.packages)
 
 # data loading
-path = getwd()
-setwd(path)
-SU = sf::st_read("./SU.gpkg")
+SU = sf::st_read("./dat/SU.gpkg")
 SU = as.data.frame(SU)
 
 # FUNCTIONS ---------------------------------------------------------------
