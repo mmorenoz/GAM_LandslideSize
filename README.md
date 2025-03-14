@@ -7,7 +7,7 @@ Luigi Lombardo <sup>[![](https://info.orcid.org/wp-content/uploads/2020/12/orcid
 
 > Moreno, M., Steger, S., Tanyas, H., & Lombardo, L. (2023). Modeling the area of co-seismic landslides via data-driven models: The Kaikōura example. Engineering Geology, 320, 107121. https://doi.org/10.1016/j.enggeo.2023.107121
 
-The provided script runs the landslide area modeling using GAMS, its respective validation via random cross-validation and spatial cross-validation, as well as the visualization of the results.
+The provided code runs the landslide area modeling using GAMS, its respective validation via random cross-validation and spatial cross-validation, as well as the visualization of the results.
 
 
 ## Abstract
