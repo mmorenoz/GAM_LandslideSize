@@ -3,7 +3,7 @@ This is the R code to reproduce the analysis in "Modeling the area of co-seismic
 Mateo Moreno <sup>[![](https://info.orcid.org/wp-content/uploads/2020/12/orcid_16x16.gif)](https://orcid.org/0000-0002-9530-3076)</sup>, 
 Stefan Steger <sup>[![](https://info.orcid.org/wp-content/uploads/2020/12/orcid_16x16.gif)](https://orcid.org/0000-0003-0886-5191)</sup>, 
 Hakan Tanyas <sup>[![](https://info.orcid.org/wp-content/uploads/2020/12/orcid_16x16.gif)](https://orcid.org/0000-0002-0609-2140)</sup> and 
-Luigi Lombardo <sup>[![](https://info.orcid.org/wp-content/uploads/2020/12/orcid_16x16.gif)](https://orcid.org/0000-0003-4348-7288)</sup>.
+Luigi Lombardo <sup>[![](https://info.orcid.org/wp-content/uploads/2020/12/orcid_16x16.gif)](https://orcid.org/0000-0003-4348-7288)</sup>
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15028434.svg)](https://doi.org/10.5281/zenodo.15028434)
 > Moreno, M., Steger, S., Tanyas, H., & Lombardo, L. (2023). Modeling the area of co-seismic landslides via data-driven models: The Kaikōura example. Engineering Geology, 320, 107121. https://doi.org/10.1016/j.enggeo.2023.107121
 
